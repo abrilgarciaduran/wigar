@@ -7,9 +7,11 @@
 }
 header {
     height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #FFCD1C;
+    position: fixed;
 }
 nav {
     display: flex;

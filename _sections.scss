@@ -1,0 +1,19 @@
+//NavBar
+#containerLogo {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  width: 70px;
+  margin-left: 50px;
+}
+#barras,
+#cruz,
+#dropdown {
+  display: none;
+}
+
+//Home
+#home {
+  margin-top: 100px;
+}

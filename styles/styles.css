@@ -144,7 +144,7 @@ h3 {
   font-size: 2.5rem;
   padding: 2rem;
   margin: 2rem 0 0 0;
-  color: #e5007a; }
+  color: #FFFFFF; }
 
 h4 {
   font-size: 2.5rem; }
@@ -174,7 +174,18 @@ input {
 textarea {
   border: 1px solid #0d3755;
   border-radius: 5px;
-  background-color: #ffcd1c; }
+  background-color: #ffcd1c;
+  height: 100px; }
+
+form {
+  display: flex;
+  align-items: center; }
+  form button {
+    padding: 2rem 4rem;
+    height: 6rem;
+    color: white; }
+  form div {
+    margin: 0 3rem; }
 
 i {
   width: 6rem; }
@@ -223,13 +234,13 @@ section {
   flex-direction: column;
   align-items: center; }
 
-.socialMediaIcons {
+.social-media-icons {
   margin: 5rem; }
-  .socialMediaIcons i {
+  .social-media-icons i {
     margin: 2rem; }
-
-.content {
-  min-height: 300px; }
+  .social-media-icons a {
+    display: inline-block;
+    height: 80px; }
 
 .content-horizontal {
   display: flex;
@@ -332,5 +343,11 @@ section {
     color: #FFCD1C;
     font-size: 5rem;
     line-height: 6rem; }
+
+#contact {
+  background-color: #e5007a;
+  color: white;
+  padding-bottom: 10rem;
+  border-top: 1rem solid #FFCD1C; }
 
 /*# sourceMappingURL=styles.css.map */

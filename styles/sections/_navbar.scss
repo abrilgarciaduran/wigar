@@ -1,0 +1,30 @@
+#containerLogo {
+    display: flex;
+    align-items: center;
+}
+#logo {
+    width: 60px;
+    margin-left: 50px;
+}
+#barras,
+#cruz,
+#dropdown {
+    display: none;
+}
+
+#list1:hover {
+    background-color: #afcb27;
+    color: #43358b;
+}
+#list2:hover {
+    background-color: #e5007a;
+    color: #ffffff;
+}
+#list3:hover {
+    background-color: #0d3755;
+    color: #f3953f;
+}
+#list4:hover {
+    background-color: #ffcd1c;
+    color: #43358b;
+}

@@ -1,0 +1,25 @@
+@import './sections/navbar.scss';
+
+//Home
+#home {
+  margin-top: 100px;
+  .content {
+    height: 500px;
+    background-image: url(../assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include alignAll;
+    filter: contrast(0.4);
+    position: relative;
+  }
+  h2 {
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(15%, 100px);
+    color: #FFCD1C;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}

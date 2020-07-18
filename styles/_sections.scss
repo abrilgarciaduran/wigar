@@ -1,4 +1,5 @@
 @import './sections/navbar.scss';
+@import './sections/about.scss';
 
 //Home
 #home {
@@ -27,32 +28,3 @@
 }
 
 //Sobre nosotras
-#about {
-  background-color: #f3953f;
-  height: 600px;
-  p {
-    font-size: 3rem;
-    line-height: 4rem;
-    margin: 3rem;
-  }
-  p, h2 {
-    color: #1C3557;
-  }
-  img {
-    width:  80%;
-    margin: 50px 0;
-  }
-  a {
-    margin-top: 3rem;
-    background-color: #ffcd1c;
-    color: #43358b;
-    padding: 3rem;
-    font-size: 3rem;
-    line-height: 4rem;
-    &:hover {
-      background-color: #e5007a;
-      color: #ffffff;
-      box-shadow: 5px 5px 5px black;
-    }
-  }
-}

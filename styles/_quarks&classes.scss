@@ -91,7 +91,6 @@ ul {
     &:hover {
       box-shadow: 5px 5px 5px black;
       height: 38px;
-
     }
   }
 }
@@ -112,14 +111,12 @@ section {
   flex-direction: column;
   align-items: center;
 }
-
 .socialMediaIcons {
   margin: 5rem;
   i {
     margin: 2rem;
   }
 }
-
 .content{
   min-height: 300px;
 }
@@ -135,4 +132,16 @@ section {
 }
 .preguntas-frecuentes {
   margin-bottom: 4rem;
+  padding: 1rem;
+  background: #ffcd1c;
+}
+
+.slide-in {
+  opacity: 0; 
+  transition: all .5s;
+  transform: translateX(-30%) scale(0.95);
+}
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
 }

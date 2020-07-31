@@ -144,7 +144,7 @@ h3 {
   font-size: 2.5rem;
   padding: 2rem;
   margin: 2rem 0 0 0;
-  color: #FFFFFF; }
+  color: #000000; }
 
 h4 {
   font-size: 2.5rem; }
@@ -320,6 +320,18 @@ section {
       color: #ffffff;
       box-shadow: 5px 5px 5px black; }
 
+#news {
+  height: 900px;
+  border-bottom: 1rem solid #ffcd1c; }
+  #news .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; }
+
+.containerNews {
+  width: 300px;
+  display: inline-block; }
+
 #home {
   margin-top: 100px; }
   #home .content {
@@ -345,9 +357,8 @@ section {
     line-height: 6rem; }
 
 #contact {
-  background-color: #e5007a;
-  color: white;
+  color: #FFCD1C;
   padding-bottom: 10rem;
-  border-top: 1rem solid #FFCD1C; }
+  border-top: 1rem solid #f3953f; }
 
 /*# sourceMappingURL=styles.css.map */

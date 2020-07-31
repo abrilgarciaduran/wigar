@@ -1,5 +1,6 @@
-@import './sections/navbar.scss';
-@import './sections/about.scss';
+@import './sections/_navbar.scss';
+@import './sections/_about.scss';
+@import './sections/_news.scss';
 
 //Home
 #home {
@@ -29,8 +30,7 @@
 
 //contact
 #contact {
-  background-color: #e5007a;
-  color: white;
+  color: #FFCD1C;
   padding-bottom: 10rem;
-  border-top: 1rem solid #FFCD1C;
+  border-top: 1rem solid #f3953f;
 }

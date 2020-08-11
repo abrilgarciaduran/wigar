@@ -1,0 +1,18 @@
+.fas {
+    @include hidden;
+}
+.bar {
+    width: 100vw;
+}
+.margins {
+    margin: 4rem 12rem;
+}
+.button {
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+    color: $blanco;
+    border-radius: 30px;
+}
+.green-button {
+    background-color: $verde;
+}

@@ -1,25 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-
 * {
-  padding: 0;
-  margin: 0;
-  border: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  color: #43358b;
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #43358b;
 }
-
 :root {
-  font-size: 8px;
+    font-size: 8px;
+    font-family: "Roboto", sans-serif;
 }
 
+//Variables
+$fucsia: #e4097f;
+$celeste: #00a1e2;
+$verde: #b0cb1e;
+$violeta: #733566;
+$azul: #005c81;
+$background: #d7e2e6;
+$blanco: #fff;
+
+//Mixins
 @mixin alignAll {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin hidden {
+    display: none;
 }
 
-*{
-  font-family: 'Source Sans Pro', sans-serif;
+img {
+    height: 8rem;
+}
+input {
+    @include hidden;
 }

@@ -1,36 +1,16 @@
-@import './sections/_navbar.scss';
-@import './sections/_about.scss';
-@import './sections/_news.scss';
-
-//Home
-#home {
-  margin-top: 100px;
-  .content {
+//Inicio
+#inicio {
+    background-color: $fucsia;
     height: 500px;
-    background-image: url(../assets/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     @include alignAll;
-    filter: contrast(0.4);
-    position: relative;
-  }
-  h2 {
-    width: 70%;
-    position: absolute;
-    z-index: 1;
-    transform: translateY(150px);
-    margin-left: 15%;
-    color: #FFCD1C;
-    font-size: 5rem;
-    line-height: 6rem;
-  }
+    flex-direction: column;
+    
+    #logo-large {
+        height: 200px;
+    }
 }
-
-//contact
-#contact {
-  color: #FFCD1C;
-  padding-bottom: 10rem;
-  border-top: 1rem solid #f3953f;
+#nosotras {
+    .button {
+        margin: 2rem 0 2rem 85%;
+    }
 }

@@ -54,12 +54,6 @@ table {
   font-size: 8px;
   font-family: "Roboto", sans-serif; }
 
-img {
-  height: 8rem; }
-
-input {
-  display: none; }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -87,11 +81,15 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  margin: 2rem 0; }
+  margin: 2rem 0;
+  font-weight: 600; }
 
 p {
   font-size: 2rem;
   margin-bottom: 3rem; }
+
+input {
+  display: none; }
 
 .fas {
   display: none; }
@@ -101,6 +99,10 @@ p {
 
 .margins {
   margin: 4rem 12rem; }
+
+.margins-side {
+  margin-left: 12rem;
+  margin-right: 12rem; }
 
 .button {
   padding: 2rem 3rem;
@@ -123,5 +125,11 @@ p {
 
 #nosotras .button {
   margin: 2rem 0 2rem 85%; }
+
+#juegos {
+  background-color: #733566; }
+
+#faq {
+  background-color: #b0cb1e; }
 
 /*# sourceMappingURL=styles.css.map */

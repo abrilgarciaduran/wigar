@@ -31,8 +31,12 @@ h1 {
 h2 {
     font-size: 3rem;
     margin: 2rem 0;
+    font-weight: 600;
 }
 p {
     font-size: 2rem;
     margin-bottom: 3rem;
+}
+input {
+    @include hidden;
 }

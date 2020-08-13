@@ -55,11 +55,14 @@ table {
   font-family: "Roboto", sans-serif; }
 
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #e4097f;
-  height: 7rem; }
+  height: 7rem;
+  z-index: 1; }
   header img {
     height: 5rem;
     margin: 0 5rem; }
@@ -80,7 +83,7 @@ h1 {
   margin: 3rem; }
 
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 2rem 0;
   font-weight: 600; }
 
@@ -98,7 +101,7 @@ input {
   width: 100vw; }
 
 .margins {
-  margin: 4rem 12rem; }
+  margin: 6rem 12rem; }
 
 .margins-side {
   margin-left: 12rem;
@@ -125,11 +128,30 @@ input {
 
 #nosotras .button {
   margin: 2rem 0 2rem 85%; }
+#nosotras h2 {
+  color: #00a1e2; }
 
 #juegos {
+  margin-top: -20px;
   background-color: #733566; }
+  #juegos h2, #juegos p {
+    color: #fff; }
+  #juegos h2 {
+    padding-top: 3rem; }
+
+#eventos h2, #eventos p {
+  color: #b0cb1e; }
 
 #faq {
-  background-color: #b0cb1e; }
+  background-color: #b0cb1e;
+  margin-top: -6.5rem; }
+
+#bar4 {
+  margin-top: -6.5rem; }
+
+#contacto {
+  background-color: #d7e2e6; }
+  #contacto img {
+    width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

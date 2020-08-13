@@ -12,10 +12,35 @@
     .button {
         margin: 2rem 0 2rem 85%;
     }
+    h2 {
+        color: $celeste;
+    }
 }
 #juegos {
+    margin-top: -20px;
     background-color: $violeta;
+    h2, p {
+        color: $blanco;
+    }
+    h2 {
+        padding-top: 3rem;
+    }
+}
+#eventos {
+    h2, p {
+        color: $verde;
+    }
 }
 #faq {
     background-color: $verde;
+    margin-top: -6.5rem;
+}
+#bar4 {
+    margin-top: -6.5rem;
+}
+#contacto {
+    background-color: $background;
+    img {
+        width: 100%;
+    }
 }

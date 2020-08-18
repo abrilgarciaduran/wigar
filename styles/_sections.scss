@@ -33,14 +33,23 @@
 }
 #faq {
     background-color: $verde;
-    margin-top: -6.5rem;
+    margin: -6.5rem auto 0 auto;
+    h2, h4, h5, p{
+        color: $blanco;
+    }
 }
 #bar4 {
     margin-top: -6.5rem;
 }
 #contacto {
     background-color: $background;
+    padding-top: 150px;
+    transform: translateY(-150px);
+    z-index: -1;
+    position: relative;
+
     img {
-        width: 100%;
+        width: 80%;
+        margin: 7rem 0 7rem 8%;
     }
 }

@@ -61,7 +61,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #e4097f;
-  height: 7rem;
+  height: 8rem;
   z-index: 3;
   padding: 0 50px; }
   header img {
@@ -77,6 +77,27 @@ nav ul {
       color: #fff;
       padding: 1rem; }
 
+form {
+  padding: 3rem; }
+
+input {
+  height: 3rem;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1.5rem; }
+
+label {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem; }
+
+textarea {
+  height: 100px;
+  padding: 0.5rem;
+  font-size: 1.5rem; }
+
 h1 {
   color: #fff;
   font-size: 4rem;
@@ -84,7 +105,7 @@ h1 {
   margin: 3rem; }
 
 h2 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   margin: 2rem 0;
   font-weight: 600; }
 
@@ -100,7 +121,7 @@ p {
   font-size: 2rem;
   margin-bottom: 3rem; }
 
-input {
+[type=checkbox] {
   display: none; }
 
 .fas {
@@ -110,6 +131,12 @@ input {
   width: 100vw;
   position: relative;
   z-index: 2; }
+
+.white {
+  color: #fff; }
+
+.blue {
+  color: #005c81; }
 
 .margins {
   margin: 6rem 12rem; }
@@ -126,6 +153,14 @@ input {
 
 .green-button {
   background-color: #b0cb1e; }
+
+.blue-button {
+  background-color: #005c81;
+  width: 100px;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1.5rem 1.5rem 1.5rem 84%; }
 
 .card {
   width: 250px;
@@ -152,7 +187,55 @@ input {
 .form {
   width: 60%;
   background-color: #00a1e2;
-  margin: auto; }
+  margin: -5px auto 0 auto; }
+
+.title-celeste {
+  color: #00a1e2;
+  font-size: 4rem;
+  margin: 2rem 0;
+  font-weight: 600;
+  margin: 0 20%; }
+
+.preguntas-frecuentes {
+  background-color: #fff;
+  width: 45%;
+  display: inline-block;
+  margin: 1.2rem;
+  padding: 2rem; }
+  .preguntas-frecuentes h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #636363;
+    padding-bottom: 0.5rem; }
+
+.respuesta {
+  color: #636363;
+  font-size: 1.8rem;
+  font-weight: 400; }
+
+.half {
+  width: 49%;
+  display: inline-block; }
+
+.flex-between {
+  display: flex;
+  justify-content: space-between; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+.no-padding-bottom {
+  padding-bottom: 0; }
+
+.padding-right {
+  padding-right: 200px; }
+
+.bold500 {
+  font-weight: 500; }
+
+.bold600 {
+  font-weight: 600; }
 
 #inicio {
   background-color: #e4097f;
@@ -162,7 +245,8 @@ input {
   align-items: center;
   flex-direction: column; }
   #inicio #logo-large {
-    height: 200px; }
+    height: 200px;
+    margin-top: 100px; }
 
 #nosotras .button {
   margin: 2rem 0 2rem 85%; }
@@ -183,8 +267,6 @@ input {
 #faq {
   background-color: #b0cb1e;
   margin: -6.5rem auto 0 auto; }
-  #faq h2, #faq h4, #faq h5, #faq p {
-    color: #fff; }
 
 #bar4 {
   margin-top: -6.5rem; }
@@ -197,6 +279,6 @@ input {
   position: relative; }
   #contacto img {
     width: 80%;
-    margin: 7rem 0 7rem 8%; }
+    margin: 1rem 0 5rem 8%; }
 
 /*# sourceMappingURL=styles.css.map */

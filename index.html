@@ -115,56 +115,48 @@
         <img src="./assets/bar3replacement.png" alt="" class="bar">
         <section id="faq">
             <div class="margins">
-                <h2>F.A.Q.</h2>
-                <h4>Preguntas frecuentes. Si no encontrás la que buscás, mandanos un mensaje!</h4>
+                <h2 class="white">F.A.Q.</h2>
+                <p class="white">Preguntas frecuentes. Si no encontrás la respuesta que buscás, mandanos un mensaje!</p>
                 <div>
                     <div class="preguntas-frecuentes">
-                        <h5 class="pregunta">Pregunta 1?</h5>
+                        <h5 class="pregunta">1. ¿PREGUNTA 1?</h5>
                         <p class="respuesta">Respuesta 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                             nec
                             odio
                             venenatis, egestas velit non, fermentum neque. Pellentesque vel ligula id risus aliquam
                             rhoncus
                             eu
-                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. Nunc ut justo
-                            condimentum,
-                            pulvinar dolor sit amet, lacinia purus.</p>
+                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. </p>
                     </div>
                     <div class="preguntas-frecuentes">
-                        <h5 class="pregunta">Pregunta 2</h5>
+                        <h5 class="pregunta">2. ¿PREGUNTA 2?</h5>
                         <p class="respuesta">Respuesta 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                             nec
                             odio
                             venenatis, egestas velit non, fermentum neque. Pellentesque vel ligula id risus aliquam
                             rhoncus
                             eu
-                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. Nunc ut justo
-                            condimentum,
-                            pulvinar dolor sit amet, lacinia purus.</p>
+                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. </p>
                     </div>
                     <div class="preguntas-frecuentes">
-                        <h5 class="pregunta">Pregunta 3</h5>
+                        <h5 class="pregunta">3. ¿PREGUNTA 3?</h5>
                         <p class="respuesta">Respuesta 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                             nec
                             odio
                             venenatis, egestas velit non, fermentum neque. Pellentesque vel ligula id risus aliquam
                             rhoncus
                             eu
-                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. Nunc ut justo
-                            condimentum,
-                            pulvinar dolor sit amet, lacinia purus.</p>
+                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. </p>
                     </div>
                     <div class="preguntas-frecuentes">
-                        <h5 class="pregunta">Preugunta 4</h5>
+                        <h5 class="pregunta">4. ¿PREGUNTA 4?</h5>
                         <p class="respuesta">Respuesta 4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                             nec
                             odio
                             venenatis, egestas velit non, fermentum neque. Pellentesque vel ligula id risus aliquam
                             rhoncus
                             eu
-                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. Nunc ut justo
-                            condimentum,
-                            pulvinar dolor sit amet, lacinia purus.</p>
+                            vitae massa. Pellentesque in sapien gravida nisi sagittis blandit. </p>
                     </div>
                 </div>
             </div>
@@ -172,30 +164,34 @@
         <img src="./assets/bar_04.png" alt="" class="bar" id="bar4">
         <section id="contacto">
             <div class="margins">
-                <h2>CONTACTO</h2>
-                <p>Buscanos en nuestras redes para enterarte de eventos, actividades, propuestas, talleres y más!
-                    <span></span>
+                <h2 class="blue">CONTACTO</h2>
+                <p class="blue padding-right bold500">Buscanos en nuestras redes para enterarte de eventos, actividades,
+                    propuestas, talleres
+                    y más!<br>
                     ¿Tenés dudas o sugerencias? Mandanos un mensaje en cualquiera de nuestras redes, o escribinos un
-                    mail a
-                    womeningamesar@gmail.com o completa el siguiente form.
+                    mail a <span class="bold600 blue">womeningamesar@gmail.com</span> o completa el siguiente form.
                 </p>
                 <img src="./assets/icon_.png" alt="">
+                <h3 class="title-celeste">MENSAJE</h3>
                 <div class="content-margin form">
-                    <h3>MENSAJE</h3>
-                    <form action="post">
-                        <div class="half">
-                            <label for="nombre">NOMBRE Y APELLIDO</label>
-                            <input type="text" id="nombre" name="nombre">
-                            <label for="mail">MAIL</label>
-                            <input type="text" name="mail" id="mail">
-                            <label for="mail">ASUNTO</label>
-                            <input type="text" name="asunto" id="asunto">
+                    <form action="">
+                        <div class="flex-between">
+                            <div class="half">
+                                <label for="nombre">NOMBRE Y APELLIDO</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+                            </div>
+                            <div class="half">
+                                <label for="mail">MAIL</label>
+                                <input type="text" name="mail" id="mail" placeholder="Escribe tu mail">
+                            </div>
                         </div>
-                        <div class="half">
+                        <div class="flex-column">
+                            <label for="mail" class="no-padding-bottom">ASUNTO</label>
+                            <input type="text" name="asunto" id="asunto" placeholder="¿De qué trata tu mensaje?">
                             <label for="mensaje">MENSAJE</label>
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Hola..."></textarea>
+                            <button type="submit" class="button blue-button">ENVIAR</button>
                         </div>
-                        <button type="submit">ENVIAR</button>
                     </form>
                 </div>
             </div>

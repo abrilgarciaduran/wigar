@@ -6,6 +6,12 @@
     position: relative;
     z-index: 2;
 }
+.white {
+    color: $blanco;
+}
+.blue {
+    color: $azul;
+}
 .margins {
     margin: 6rem 12rem;
 }
@@ -21,6 +27,14 @@
 }
 .green-button {
     background-color: $verde;
+}
+.blue-button {
+    background-color: $azul;
+    width: 100px;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1.5rem 1.5rem 1.5rem 84%;
 }
 .card {
     width: 250px;
@@ -49,5 +63,54 @@
 .form {
     width: 60%;
     background-color: $celeste;
-    margin: auto;
+    margin: -5px auto 0 auto;
+}
+.title-celeste {
+    color: $celeste;
+    font-size: 4rem;
+    margin: 2rem 0;
+    font-weight: 600;
+    margin: 0 20%;
+}
+.preguntas-frecuentes {
+    background-color: $blanco;
+    width: 45%;
+    display: inline-block;
+    margin: 1.2rem;
+    padding: 2rem;
+    h5 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: rgb(99, 99, 99);
+        padding-bottom: 0.5rem;
+    }
+}
+.respuesta {
+    color: rgb(99, 99, 99);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.half {
+    width: 49%;
+    display: inline-block;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.no-padding-bottom {
+    padding-bottom: 0;
+}
+.padding-right {
+    padding-right: 200px;
+}
+.bold500 {
+    font-weight: 500;
+}
+.bold600 {
+    font-weight: 600;
 }

@@ -6,6 +6,7 @@
     
     #logo-large {
         height: 200px;
+        margin-top: 100px;
     }
 }
 #nosotras {
@@ -34,9 +35,6 @@
 #faq {
     background-color: $verde;
     margin: -6.5rem auto 0 auto;
-    h2, h4, h5, p{
-        color: $blanco;
-    }
 }
 #bar4 {
     margin-top: -6.5rem;
@@ -50,6 +48,6 @@
 
     img {
         width: 80%;
-        margin: 7rem 0 7rem 8%;
+        margin: 1rem 0 5rem 8%;
     }
 }
